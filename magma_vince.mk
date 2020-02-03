@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common Magma stuff.
 $(call inherit-product, vendor/magma/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
