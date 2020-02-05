@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/magma_vince.mk
+    $(LOCAL_DIR)/descendant_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    magma_vince-user \
-    magma_vince-userdebug \
-    magma_vince-eng
+    descendant_vince-user \
+    descendant_vince-userdebug \
+    descendant_vince-eng
