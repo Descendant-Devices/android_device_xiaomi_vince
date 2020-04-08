@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common descendant stuff.
 $(call inherit-product, vendor/descendant/config/common_full_phone.mk)
-$(call inherit-product, device/oem/codename/GApps-flags.mk)
+$(call inherit-product, device/xiaomi/vince/GApps-flags.mk)
 TARGET_INCLUDE_OWN_CAMERA := NO
 
 # Device identifier. This must come after all inclusions
